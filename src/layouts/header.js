@@ -2,7 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
+    <header className="align-items-center">
+      <img src="../../" alt=""/>
       header
     </header>
   );
