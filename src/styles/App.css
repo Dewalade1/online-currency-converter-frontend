@@ -1,20 +1,40 @@
 @import './layout.css';
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .align-items-center {
   display: flex;
   align-items: center;
 }
 
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.app-logo {
+  height: 60px;
+  margin-right: 10px;
+  pointer-events: none;
+}
+
+#app-title {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .app-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@media (max-width: 768px) {
+  #app-title {
+    display: none;
+  }
+}
+
+
 
 .App-header {
   background-color: #282c34;

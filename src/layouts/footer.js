@@ -4,8 +4,8 @@ import "../styles/layout.css";
 
 const Footer = () => {
   return (
-    <footer className="align-items-center">
-      Footer
+    <footer className="align-items-center justify-content-center">
+      Made by helloDewa
     </footer>
   )
 };
