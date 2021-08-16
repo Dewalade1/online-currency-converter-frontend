@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <main>{children}</main>
+        <main className="align-items-center justify-content-center">{children}</main>
       <Footer />
     </div>
   );
