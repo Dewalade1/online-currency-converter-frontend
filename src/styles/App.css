@@ -1,7 +1,18 @@
-@import './cards.css';
-@import './inputs.css';
-@import './layout.css';
-@import './buttons.css';
+
+body {
+  background: linear-gradient(to bottom, var(--primary) 0%, var(--primary) 40%, var(--secondary) 40%);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
 .align-items-center {
   display: flex;
@@ -11,6 +22,11 @@
 .justify-content-center {
   display: flex;
   justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .app-logo {
@@ -39,7 +55,7 @@
 
 
 
-.App-header {
+.header--app {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -50,7 +66,7 @@
   color: white;
 }
 
-.App-link {
+.link--app {
   color: #61dafb;
 }
 

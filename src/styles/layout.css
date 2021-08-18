@@ -2,7 +2,7 @@
 
 header {
     background-color: transparent;
-    color: var(--white);
+    color: var(--secondary);
     height: 70px;
     padding: 5px 15px;
 }
@@ -12,8 +12,10 @@ main {
 }
 
 footer {
+    display: flex;
     background-color: var(--primary);
-    color: var(--white);
+    color: var(--secondary);
+    flex-direction: column;
     min-height: 100px;
     padding: 5px 15px;
 }
