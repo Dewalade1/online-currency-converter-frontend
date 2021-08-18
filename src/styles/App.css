@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(to bottom, var(--primary) 0%, var(--primary) 40%, var(--secondary) 40%);
+  background: linear-gradient(to bottom, var(--primary) 0%, var(--primary) 50%, var(--secondary) 50%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

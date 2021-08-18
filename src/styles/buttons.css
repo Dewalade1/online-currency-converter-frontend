@@ -1,4 +1,38 @@
+@import './variables.css';
+
+.btn {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    margin: auto;
+    outline: none;
+    width: 100%;
+}
+
+.btn--container {
+    padding: 30px 0 0 0;
+    width: 100%;
+}
 
 .btn--primary {
-    
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--secondary);
+    transition: 0.3s;
+}
+
+.btn--primary:hover {
+    background-color: var(--deep-blue);
+}
+
+.btn--disabled {
+    opacity: 0.65;
+}
+
+@media (max-width: 580px) {
+    .btn--container {
+        padding: 30px 0 0 0;
+        width: 100%;
+}
 }
