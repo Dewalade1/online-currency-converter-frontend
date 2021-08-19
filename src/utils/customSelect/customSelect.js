@@ -10,11 +10,11 @@ const CustomSelect = ({
     labelCls,
 }) => {
     return (
-      <div className={cls}>
-          <div htmlFor={name} className={labelCls}>{name}</div>
+      <div className={`select--container ${cls}`}>
+        <div htmlFor={name} className={labelCls}>{name}</div>
         <Select 
           name={name} 
-          className={className} 
+          prefixClassName={className} 
           placeholder={placeholder} 
           options={options}
         />

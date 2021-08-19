@@ -24,9 +24,14 @@ code {
   justify-content: center;
 }
 
-.flex-column {
+.flex--column {
   display: flex;
   flex-direction: column;
+}
+
+.flex--end {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .app-logo {

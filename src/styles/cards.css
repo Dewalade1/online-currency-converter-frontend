@@ -8,6 +8,12 @@
 }
 
 .card--main {
-    max-width: 900px;
-    min-width: 350px;
+    width: 76vw;
+}
+
+@media (max-width: 590px) {
+    .card--main {
+        max-width: 900px;
+        min-width: 350px;
+    }
 }
