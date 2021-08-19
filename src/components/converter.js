@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 
+import Exchange from "../assets/icons/exchange.svg";
+
 import CustomCard from "../utils/customCard/customCard";
 import CustomInput from "../utils/customInput/customInput";
 import CustomButton from "../utils/customButton/customButton";
@@ -23,11 +25,19 @@ const Converter = () => {
     console.log(state)
   }
 
+  const HandleChange = ({ target: { name, value } }) => {
+    HandleSelect( name, value )
+  }
+
   const HandleSelect = ( name , value ) => {
     setState((prev) => ({
       ...prev,
       [name]: value,
     }))
+  }
+
+  const GetConvertIcon = () => {
+    return <img src={Exchange} alt="" width="30px" height="30px" />
   }
 
     return (
@@ -44,16 +54,22 @@ const Converter = () => {
                 labelCls="input--label text--bold"
                 placeholder="1.00"
                 cls="input--converter-input"
-                onChange={(e) => setState({ })}
+                onChange={(value) => HandleChange("amount", value )}
               />
             </div>
-            <div className="input--wrapper">
+            <div className="input--wrapper flex--start align-items-start">
               <CustomSelect 
                 name="From" 
                 placeholder="From Currency"
-                cls="input--converter-input" 
+                cls="select--converter-input" 
                 labelCls="select--label text--bold"
                 onChange={(value) => HandleSelect("to" , value)}
+              />
+
+              <CustomButton 
+                name={GetConvertIcon()} 
+                cls="flex--start"
+                className="btn btn--swap-values"  
               />
             </div>
             <div className="input--wrapper flex--end flex--column">

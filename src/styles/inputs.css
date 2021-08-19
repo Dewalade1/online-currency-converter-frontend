@@ -27,7 +27,7 @@ input:hover {
 
 .input--container {
     margin: 20px 30px 20px 0;
-    width: 90%;
+    width: 95%;
 }
 
 .input--label {
@@ -53,6 +53,10 @@ input:hover {
     margin-bottom: 10px;
 }
 
+.select--converter-input {
+    width: 75%;
+}
+
 /** form **/
 
 .form--converter-form {
@@ -63,5 +67,19 @@ input:hover {
 @media (max-width: 590px) {
     .form--converter-form {
         display: block;
+    } 
+
+    input, .select--container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .input--wrapper {
+        display: block;
+    }
+
+    .select--converter-input {
+        width: 100%;
     }
 }

@@ -19,9 +19,19 @@ code {
   align-items: center;
 }
 
+.align-items-start {
+  align-items: flex-start;
+  display: flex;
+}
+
 .justify-content-center {
   display: flex;
   justify-content: center;
+}
+
+.flex--between {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex--column {
@@ -32,6 +42,11 @@ code {
 .flex--end {
   display: flex;
   justify-content: flex-end;
+}
+
+.flex--start {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .app-logo {
