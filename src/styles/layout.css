@@ -1,0 +1,19 @@
+@import './variables';
+
+header {
+    background-color: transparent;
+    color: var(--secondary);
+    height: 70px;
+    padding: 5px 15px;
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--secondary);
+    min-height: 100px;
+    padding: 5px 15px;
+}

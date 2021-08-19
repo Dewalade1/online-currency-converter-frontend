@@ -1,0 +1,85 @@
+@import './variables';
+
+/** INPUTS **/
+
+input {
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    color: var(--primary);
+    height: 30px;
+    padding: 5px;
+    width: 90%;
+}
+
+input:focus {
+    border: 1px solid var(--primary) !important;
+    color: var(--primary);
+}
+
+input:hover {
+    border: 1px solid var(--grey);
+    color: var(--primary);
+}
+
+.input--converter-input {
+    width: 100%;
+}
+
+.input--container {
+    margin: 20px 30px 20px 0;
+    width: 95%;
+}
+
+.input--label {
+    color: var(--dark-grey);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input--wrapper {
+    width: 100%;
+}
+
+/** SELECT **/
+
+.select--container {
+    margin: 20px 10px;
+    width: 90%;
+}
+
+.select--label {
+    color: var(--dark-grey);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.select--converter-input {
+    width: 75%;
+}
+
+/** form **/
+
+.form--converter-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 590px) {
+    .form--converter-form {
+        display: block;
+    } 
+
+    input, .select--container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .input--wrapper {
+        display: block;
+    }
+
+    .select--converter-input {
+        width: 100%;
+    }
+}

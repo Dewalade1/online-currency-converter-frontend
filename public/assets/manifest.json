@@ -1,0 +1,20 @@
+{
+  "short_name": "Currency Converter",
+  "name": "Online Currency Converter",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1932d3",
+  "background_color": "#ffffff"
+}
