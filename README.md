@@ -1,6 +1,6 @@
-# Online Currency Converter Frontend
+# simple-calculator-frontend
 
-## Tools Used
+## Tools used
 
 - [ReactJS](https://reactjs.org) - to build the app
 - [NextJS](https://nextjs.org) - for preview and production deployment
