@@ -38,6 +38,14 @@
     width: 45px;
 }
 
+.btn--swap-values:hover {
+    opacity: 1;
+}
+
+.btn--swap-values:focus {
+    opacity: 1;
+}
+
 .btn--disabled {
     opacity: 0.60;
 }
