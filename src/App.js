@@ -1,4 +1,4 @@
-import './styles/index.css';
+import './styles/css/index.css';
 
 import Layout from './layouts/layout';
 import Converter from './components/converter';

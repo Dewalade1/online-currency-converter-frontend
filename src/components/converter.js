@@ -53,7 +53,7 @@ const Converter = () => {
                 })}
                 labelCls="input--label text--bold"
                 placeholder="1.00"
-                cls="input--converter-input"
+                cls="input--converter-input "
                 onChange={(value) => HandleChange("amount", value )}
               />
             </div>
@@ -61,7 +61,7 @@ const Converter = () => {
               <CustomSelect 
                 name="From" 
                 placeholder="From Currency"
-                cls="select--converter-input" 
+                cls="select--converter-input " 
                 labelCls="select--label text--bold"
                 onChange={(value) => HandleSelect("to" , value)}
               />
@@ -76,7 +76,7 @@ const Converter = () => {
               <CustomSelect 
                 name="To" 
                 placeholder="To Currency" 
-                cls="input--converter-input" 
+                cls="input--converter-input " 
                 labelCls="select--label text--bold"
                 onChange={(value) => HandleSelect("from" , value)}
               />

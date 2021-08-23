@@ -47,6 +47,10 @@ input:hover {
     width: 90%;
 }
 
+.css-1okebmr-indicatorSeparator {
+    display: none !important;
+}
+
 .select--label {
     color: var(--dark-grey);
     font-size: 18px;
