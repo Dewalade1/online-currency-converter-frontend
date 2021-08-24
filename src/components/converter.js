@@ -47,16 +47,10 @@ const Converter = () => {
 
     async function FetchCurrencies () {
 
-      const currencies = [];
-
       try {
         const response = await Axios.get("https://free.currconv.com/api/v7/currencies?apiKey=e0e36f9592f91d861b6d");
 
         console.log(response.data.results);
-        for (const [key, value] of Object.entries(response.data.results)) {
-          currencies.append(value);
-          return currencies;
-        }
 
       } catch (e) {
         console.error("URL not found")

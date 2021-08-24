@@ -31,3 +31,6 @@ yarn-error.log*
 
 #next
 .next
+
+# Misc files and folders
+.env
